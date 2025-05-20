@@ -5,7 +5,7 @@ load_dotenv()
 
 class LLMManager:
     def __init__(self):
-        self.llm = ChatGroq(model="meta-llama/llama-4-scout-17b-16e-instruct", temperature=0, api_key="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")
+        self.llm = ChatGroq(model="meta-llama/llama-4-scout-17b-16e-instruct", temperature=0, api_key="")
 
     def invoke(self, prompt: ChatPromptTemplate, **kwargs) -> str:
         messages = prompt.format_messages(**kwargs)
