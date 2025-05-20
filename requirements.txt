@@ -1,0 +1,8 @@
+langchain
+python-dotenv
+langgraph
+langchain-groq
+psycopg2
+mysql-connector-python
+pandas
+matplotlib

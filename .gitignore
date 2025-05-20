@@ -1,0 +1,6 @@
+__pycache__
+db_dv_env
+.env
+LG_trial.py
+postgresql_schema_extractor.py
+t.py
